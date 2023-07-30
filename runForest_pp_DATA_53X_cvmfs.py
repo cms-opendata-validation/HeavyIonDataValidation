@@ -29,19 +29,12 @@ process.HiForest.HiForestVersion = cms.untracked.string(version)
 
 process.source = cms.Source("PoolSource",
                             duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
-                            #fileNames = cms.untracked.vstring(
-                            #    "file:/afs/cern.ch/work/r/richard/pp-Data-RECO.root"
-                            #)
-                            fileNames = cms.untracked.vstring('root://xrootd.unl.edu//store/data/Run2013A/PPJet/RECO/PromptReco-v1/000/211/693/00000/E217D7AB-9775-E211-BCE7-003048F1110E.root')
+                            #fileNames = cms.untracked.vstring('root://xrootd.unl.edu//store/data/Run2013A/PPJet/RECO/PromptReco-v1/000/211/693/00000/E217D7AB-9775-E211-BCE7-003048F1110E.root')
+                            fileNames = cms.untracked.vstring(
+      "root://eospublic.cern.ch//eos/opendata/cms/Run2013A/PPJet/RECO/PromptReco-v1/000/211/693/00000/E217D7AB-9775-E211-BCE7-003048F1110E.root"
+      )
 )
 
-# BEGIN ANSIBLE MANAGED BLOCK
-process.source = cms.Source("PoolSource",
-  duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
-    fileNames = cms.untracked.vstring(
-      "root://eospublic.cern.ch//eos/opendata/cms/Run2013A/PPJet/RECO/PromptReco-v1/000/211/693/00000/E217D7AB-9775-E211-BCE7-003048F1110E.root"
-      ))
-# END ANSIBLE MANAGED BLOCK
 # Number of events we want to process, -1 = all events
 process.maxEvents = cms.untracked.PSet(
    input = cms.untracked.int32(100))

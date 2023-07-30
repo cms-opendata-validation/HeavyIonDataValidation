@@ -33,15 +33,10 @@ process.HiForest.HiForestVersion = cms.untracked.string(version)
 process.source = cms.Source("PoolSource",
                             duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
                             fileNames = cms.untracked.vstring(
-                                "/store/hidata/HIRun2013A/PAHighPt/RECO/PromptReco-v1/000/210/354/CC8F3FCD-EB62-E211-ABBF-BCAEC5329716.root"
+                            #    "/store/hidata/HIRun2013A/PAHighPt/RECO/PromptReco-v1/000/210/354/CC8F3FCD-EB62-E211-ABBF-BCAEC5329716.root"
+                                  "root://eospublic.cern.ch//eos/opendata/cms/hidata/HIRun2013/PAHighPt/RECO/PromptReco-v1/000/210/354/00000/6828E637-E262-E211-8478-BCAEC518FF7C.root"
                             ))
 
-# BEGIN ANSIBLE MANAGED BLOCK
-process.source = cms.Source("PoolSource",
-  duplicateCheckMode = cms.untracked.string("noDuplicateCheck"),
-    fileNames = cms.untracked.vstring(
-      "root://eospublic.cern.ch//eos/opendata/cms/hidata/HIRun2013/PAHighPt/RECO/PromptReco-v1/000/210/354/00000/6828E637-E262-E211-8478-BCAEC518FF7C.root"
-      ))
 # END ANSIBLE MANAGED BLOCK
 # Number of events we want to process, -1 = all events
 process.maxEvents = cms.untracked.PSet(
