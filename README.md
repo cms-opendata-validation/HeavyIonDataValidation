@@ -1,7 +1,5 @@
 # HeavyIonDataValidation
 
-# HeavyIonDataValidation
-
 This repository contains utility files for CMS heavy-ion-related open data.
 
 A codebase for heavy-ion data analysis is provided in the CMS open data containers. The users of the CMS open data virtual machine need to install this codebase on top of standard CMSSW releases. Instructions are provided in [Getting started with 2013 open data](http://opendata.cern.ch/docs/cms-getting-started-2013) on the CERN open data portal.
@@ -10,7 +8,7 @@ The lists of packages to be added are in the [main branch](https://github.com/cm
 - for CMSSW_5_3_20: packages_HI_CMSSW_5_3_20.txt
 - for CMSSW_7_5_8_patch3: packages_HI_CMSSW_7_5_8_patch3.txt
 
-This [53X](https://github.com/cms-opendata-validation/HeavyIonDataValidation/tree/53X) branch of the repository contains some example configuration files with the necessary modifications to use them with 2013 heavy-ion-related open data. See the [75X](https://github.com/cms-opendata-validation/HeavyIonDataValidation/tree/75X) branch for the example file for 2015 pp reference data.
+This [53X](https://github.com/cms-opendata-validation/HeavyIonDataValidation/tree/53X) branch of the repository contains some example configuration files with the necessary modifications for 2013 heavy-ion-related open data. See the [75X](https://github.com/cms-opendata-validation/HeavyIonDataValidation/tree/75X) branch for the example files for 2015 pp reference data.
 
 The files are direct copies of the [HeavyIonsAnalysis/JetAnalysis/test](https://github.com/CmsHI/cmssw/tree/forest_CMSSW_5_3_20/HeavyIonsAnalysis/JetAnalysis/test) area of the original codebase.
 For all files, the example input file has been changed to a file in the open data area. 
