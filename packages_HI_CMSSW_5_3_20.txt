@@ -1,0 +1,17 @@
+FWCore/Version
+GeneratorInterface/HiGenCommon
+HeavyIonsAnalysis/CentralityAnalysis
+HeavyIonsAnalysis/Configuration
+HeavyIonsAnalysis/EventAnalysis
+HeavyIonsAnalysis/HiTrkEffAnalyzer
+HeavyIonsAnalysis/JetAnalysis
+HeavyIonsAnalysis/MuonAnalysis
+HeavyIonsAnalysis/PhotonAnalysis
+HeavyIonsAnalysis/TrackAnalysis
+HeavyIonsAnalysis/VertexAnalysis
+RecoHI/Configuration
+RecoHI/HiCentralityAlgos
+RecoHI/HiJetAlgos
+RecoHI/HiTracking
+RecoJets/Configuration
+RecoJets/JetProducers
