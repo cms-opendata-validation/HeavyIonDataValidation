@@ -10,7 +10,7 @@ The lists of packages to be added are in the [main branch](https://github.com/cm
 
 This [75X](https://github.com/cms-opendata-validation/HeavyIonDataValidation/tree/75X) branch of the repository contains some example configuration files with the necessary modifications for 2015 pp HI reference open data. See the [53X](https://github.com/cms-opendata-validation/HeavyIonDataValidation/tree/53X) branch for the example files for 2013 heavy-ion-related data.
 
-The configuration file is a direct copiy of the [HeavyIonsAnalysis/JetAnalysis/test](https://github.com/CmsHI/cmssw/tree/forest_CMSSW_7_5_8_patch3/HeavyIonsAnalysis/JetAnalysis/test) area of the original codebase.
+The configuration file is a direct copy of the [HeavyIonsAnalysis/JetAnalysis/test](https://github.com/CmsHI/cmssw/tree/forest_CMSSW_7_5_8_patch3/HeavyIonsAnalysis/JetAnalysis/test) area of the original codebase.
 The example input file has been changed to a file in the open data area. 
 
 Additionally, a `_cvmfs` version of the file has been created to be used in the VM (or when accessing the condition database through a mounted cvmfs area in the container). It has the following changes:
