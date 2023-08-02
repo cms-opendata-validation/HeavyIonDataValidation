@@ -12,6 +12,7 @@ JetMETCorrections/Algorithms
 JetMETCorrections/Modules
 PhysicsTools/PatAlgos
 RecoBTag/CSVscikit
+RecoEgamma/ElectronIdentification
 RecoHI/HiJetAlgos
 RecoJets/Configuration
 RecoJets/JetProducers
