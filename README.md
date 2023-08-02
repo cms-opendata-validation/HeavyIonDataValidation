@@ -13,6 +13,8 @@ This [75X](https://github.com/cms-opendata-validation/HeavyIonDataValidation/tre
 The configuration file is a direct copy of the [HeavyIonsAnalysis/JetAnalysis/test](https://github.com/CmsHI/cmssw/tree/forest_CMSSW_7_5_8_patch3/HeavyIonsAnalysis/JetAnalysis/test) area of the original codebase.
 The example input file has been changed to a file in the open data area. 
 
+`process.ak4CaloJetSequence` has been commented out from the path as it causes a big amount of error messages about missing computation of jet constituents.
+
 Additionally, a `_cvmfs` version of the file has been created to be used in the VM (or when accessing the condition database through a mounted cvmfs area in the container). It has the following changes:
 - commands to create symbolic links to the condition database files in the `/cvmfs/cms-opendata-conddb.cern.ch` area
 - connection to the condition database file for respective global tags
