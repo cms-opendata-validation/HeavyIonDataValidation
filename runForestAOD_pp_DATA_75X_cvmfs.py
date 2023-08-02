@@ -93,7 +93,7 @@ process.highPurityTracks = cms.EDFilter("TrackSelector",
 process.jetSequences = cms.Sequence(
     process.ak3PFJets +
     process.highPurityTracks +
-    process.ak4CaloJetSequence +
+#    process.ak4CaloJetSequence +
     process.ak3PFJetSequence +
     process.ak4PFJetSequence
     )
