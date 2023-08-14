@@ -20,10 +20,10 @@ Additionally, `_cvmfs` versions of the files have been created to be used in the
   - the modified `CommonFunction_OD_53X_cff.py` should be placed in `HeavyIonsAnalysis/Configuration/python` of the local area.
 
 The open data input files are in the `RECO` format, but some of the original test files may have had some additional content that is not included in the `RECO` files. Therefore the following modifications have been done 
-- runForest_pPb_MC_53X:
+- runForest_pPb_MC_53X_OD:
   - `process.ppTrack.doSimTrack = cms.untracked.bool(False)`
   - comment out `cutsTPForFak` and `cutsTPForEff` from the path
-- runForest_PbPb_MC_53X:
+- runForest_PbPb_MC_53X_OD:
   - comment out `process.photonStep_withReco` from the path.
 
 These modifications have not been verified by experts.    
